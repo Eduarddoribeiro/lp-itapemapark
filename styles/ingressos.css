@@ -1,0 +1,89 @@
+/* Container dos cards */
+
+
+.ticket-container {
+    display: flex; 
+    gap: 25px;
+    justify-content: flex-start; /* Centraliza os cards */
+    flex-wrap: wrap; /* Faz os cards quebrarem linha se necessário */
+    margin-top: 20px;
+    width: 100%; /* Garante que o contêiner use toda a largura */
+}
+
+.card-container {
+    display: flex; /* Cria um layout em linha para os cards */
+    gap: 25px; /* Espaço entre os cards */
+    justify-content: center; /* Centraliza os cards horizontalmente */
+    flex-wrap: wrap; /* Permite que os cards quebrem linha em telas menores */
+    margin-top: 20px; /* Espaço acima dos cards */
+}
+
+/* Estilo de cada card */
+.card {
+    background-color: #fff; /* Fundo branco */
+    border: 1px solid #ddd; /* Borda leve */
+    border-radius: 8px; /* Arredonda os cantos */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Sombra suave */
+    padding: 20px; /* Espaçamento interno */
+    width: 250px; /* Largura fixa */
+    text-align: center; /* Centraliza o conteúdo */
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #e6e7e7; /* Fundo cinza claro no hover */
+    border: 1px solid #ccc; /* Borda mais clara */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais destacada */
+    transform: scale(1.05); /* Leve aumento no tamanho */
+}
+
+/* Título do card */
+.card-title {
+    font-size: 1.3rem;
+    color: #000000;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.card-days {
+    text-align: left;
+    color: #323638;
+    
+}
+
+/* Preço no card */
+.card-price {
+    list-style: none; /* Remove os marcadores da lista */
+    padding-top: 15px;
+    margin: 0;
+    text-align: left;
+}
+
+/* Descrição do card */
+.card-description {
+    font-size: 0.7rem;
+    color: #323638;
+    text-align: left;
+    padding: 12px 0px;
+   
+}
+
+/* Botão do card */
+.card-button {
+    background-color: #F2AB27; /* Cor do botão */
+    color: #000000; /* Cor do texto */
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.5s ease, box-shadow 0.5s ease, color 0.5s ease;
+}
+
+/* Efeito hover no botão */
+.card-button:hover {
+    background-color: #D9901F; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    color: #fff;
+}

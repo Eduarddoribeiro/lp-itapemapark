@@ -1,0 +1,83 @@
+/* Menu mobile inicial */
+#mobile_btn, #mobile_menu {
+    display: none;
+}
+
+/* Estilos para telas menores que 1170px */
+@media screen and (max-width: 1170px) {
+    #nav_list,
+    #navbar .btn-default {
+        display: none;
+    }
+
+    #mobile_btn {
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    #mobile_menu.active { /* Quando o menu estiver aberto */
+        display: flex;
+        flex-direction: column; /* Exibe os itens um abaixo do outro */
+        align-items: start;
+    }
+
+    #mobile_nav_list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 18px 0;
+    }
+
+    #mobile_nav_list .nav-item {
+        list-style: none;
+        text-align: left;
+    }
+
+    .ticket-container-sobre {
+        gap: 25px;
+    }
+    .text-sobre p {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+
+    #nav_logo {
+        width: 80px; /* Define a largura */
+        height: auto; /* Mantém a proporção */
+    }
+    #titulo {
+        font-size: 2.2rem;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 1.2;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    }
+    #overlay {
+        top: 45%; /* Abaixa um pouco o conteúdo */
+        width: 80%;
+    }
+    .subtitle {
+        display: none;
+    }
+    .card {
+        width: 100%;
+    }
+    .card-missao-sobre, .card-valores-sobre, .card-visao-sobre {
+        width: 100%;
+    }
+    .text-sobre p {
+        font-size: 1.2rem;
+    }
+    .footer-column iframe {
+        display: none;
+        
+    }
+    .footer-column {
+        align-items: center;
+    }
+}

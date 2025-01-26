@@ -1,0 +1,62 @@
+/* Estilização do footer */
+.footer {
+    background-color: #e6e20085; /* Cor de fundo 03d41f85*/ 
+    color: #fff; /* Cor do texto */
+}
+#footer-items {
+    display: flex; /* Torna os itens filhos flexíveis */
+    justify-content: space-between; /* Espaço uniforme entre as colunas */
+    gap: 20px; /* Espaçamento entre colunas */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha em telas menores */
+    padding: 20px; /* Adiciona espaçamento interno ao contêiner */
+    padding-left: 8%;
+}
+
+.footer-column {
+    flex: 1; /* Cada coluna ocupa o mesmo espaço */
+    max-width: 550px; /* Largura máxima de cada coluna */
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #F2E313;
+}
+
+#copyright {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px; /* Espaço acima do texto */
+    font-size: 14px;
+}
+#copyright {
+    display: block; /* Garante que o span ocupe a largura total */
+    text-align: center;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    font-size: 0.9rem; /* Ajusta o tamanho da fonte, se necessário */
+    color: #000000; /* Cor de exemplo */
+    padding: 10px 0; /* Espaçamento interno, opcional */
+}

@@ -1,0 +1,24 @@
+#fotos {
+    margin-top: 40px;
+    background-color: #fff;
+    padding-bottom: 3%;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 15px;
+    padding-top: 3%;
+}
+
+#gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: filter 0.5s ease; /* Suaviza o efeito */
+}
+
+#gallery img:hover {
+    filter: brightness(0.6); /* Escurece a imagem (0.6 = 60% do brilho original) */
+    cursor: pointer; /* Muda o cursor para indicar interatividade */
+}

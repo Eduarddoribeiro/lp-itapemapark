@@ -1,0 +1,94 @@
+#Sobre {
+    padding-bottom: 8%;
+}
+
+.description-sobre {
+    font-size: 1.8rem;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.destaque-verde {
+    color: #B7D93D;
+    text-shadow: 0px 8px 20px  rgba(0, 0, 0, 0.651);
+}
+
+.text-sobre p {
+    margin-bottom: 16px;
+    color: #fff;
+    width: 50%;
+    font-size: 1.4rem;
+    text-shadow: 0px 8px 20px  rgba(0, 0, 0, 0.65);
+}
+
+/* Container dos cards */
+
+
+.ticket-container-sobre {
+    display: flex; 
+    gap: 150px;
+    justify-content: center; /* Centraliza os cards */
+    flex-wrap: wrap; /* Faz os cards quebrarem linha se necessário */
+    margin-top: 40px;
+    width: 100%; /* Garante que o contêiner use toda a largura */
+}
+
+.card-container-sobre {
+    display: flex; /* Cria um layout em linha para os cards */
+    gap: 25px; /* Espaço entre os cards */
+    justify-content: center; /* Centraliza os cards horizontalmente */
+    flex-wrap: wrap; /* Permite que os cards quebrem linha em telas menores */
+    margin-top: 20px; /* Espaço acima dos cards */
+}
+
+/* Estilo de cada card */
+.card-missao-sobre {
+    background-color: #F2E313; /* Fundo branco */
+    border-radius: 8px; /* Arredonda os cantos */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Sombra suave */
+    padding: 20px; /* Espaçamento interno */
+    width: 250px; /* Largura fixa */
+    text-align: center; /* Centraliza o conteúdo */
+}
+.card-visao-sobre {
+    background-color: #F26835; /* Fundo branco */
+    border-radius: 8px; /* Arredonda os cantos */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Sombra suave */
+    padding: 20px; /* Espaçamento interno */
+    width: 250px; /* Largura fixa */
+    text-align: center; /* Centraliza o conteúdo */
+}
+.card-valores-sobre {
+    background-color: #B1E200; /* Fundo branco */
+    border-radius: 8px; /* Arredonda os cantos */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Sombra suave */
+    padding: 20px; /* Espaçamento interno */
+    width: 250px; /* Largura fixa */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Título do card */
+.card-title-sobre {
+    font-size: 1.3rem;
+    color: #000000;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.card-description-sobre {
+    text-align: center;
+    color: #000000;
+    
+}
+
+.card-list-sobre {
+    padding-left: 10%;
+}
+
+.valores-item {
+    color: #000000; /* Texto branco */
+    text-align: left; /* Centraliza o texto dentro do item */
+}

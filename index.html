@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Itapema Park</title>
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="src/img/Captura_de_tela_2025-01-18_184336-removebg-preview (1) 1.png" type="image/
+x-icon">
+
+
+<!--JS e CSS-->
+<link rel="stylesheet" href="styles/style.css">
+<script src="script.js" defer></script>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <a href="#home">
+                <img id="nav_logo" src="src/img/Captura_de_tela_2025-01-18_184336-removebg-preview (1) 1.png" alt="Logo Itapema Park">
+            </a>
+        
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Ingressos">Ingressos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#fotos">Fotos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Sobre">Sobre</a>
+                </li>
+                
+            </ul>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <!--Menu mobile-->
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Ingressos">Ingressos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#fotos">Fotos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Sobre">Sobre</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!--Todo o conteúdo-->
+    <main id="content">
+        <section id="home">
+            <div id="overlay">
+                <h1 id="titulo">Seja bem-vindo ao melhor <br> 
+                    <span>parque aquático</span> da região!</h1>
+                <p class="subtitle">Venha se divertir em nossas atrações incríveis.</p>
+                <a href="#Ingressos" class="btn-saiba-mais">Saiba mais</a>
+            </div>
+        </section>
+        
+        <section id="Ingressos">
+            <div class="section-header">
+                <h2 class="title-section">Ingressos</h2>
+                <p class="subtitle-section">Passaporte diário (Válido para um dia de utilização)</p>
+            </div>
+
+            <div class="ticket-container">
+                <div class="card">
+                    <h3 class="card-title">Adulto</h3>
+                    <p class="card-days">Terça a sexta</p>
+                    <ul class="card-price">
+                        <li>Bilheteria: R$ 50,00</li>
+                        <li>Site: R$ 44,90</li>
+                        <li>Excursão: R$ 34,90</li>
+                    </ul>
+                    <p class="card-description">Obs: Preços exclusivos para excursões com pagamento antecipado.</p>
+                    <button class="card-button">Comprar agora</button>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Infantil</h3>
+                    <p class="card-days">Terça a sexta</p>
+                    <ul class="card-price">
+                        <li>Bilheteria: R$ 40,00</li>
+                        <li>Site: R$ 34,90</li>
+                        <li>Excursão: R$ 24,90</li>
+                    </ul>
+                    <p class="card-description">Obs: Crianças de até 12 anos. Excursões devem ser agendadas previamente. </p>
+                    <button class="card-button">Comprar agora</button>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Adulto</h3>
+                    <p class="card-days">Sábado e domingo</p>
+                    <ul class="card-price">
+                        <li>Bilheteria: R$ 75,00</li>
+                        <li>Site: R$ 69,90</li>
+                        <li>Excursão: R$ 59,90</li>
+                    </ul>
+                    <p class="card-description">Obs: Desconto válido apenas para excursões com no mínimo 15 pessoas.</p>
+                    <button class="card-button">Comprar agora</button>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Infantil</h3>
+                    <p class="card-days">Sábado e domingo</p>
+                    <ul class="card-price">
+                        <li>Bilheteria: R$ 55,00</li>
+                        <li>Site: R$ 49,90</li>
+                        <li>Excursão: R$ 39,90</li>
+                    </ul>
+                    <p class="card-description">Obs: Crianças de até 12 anos. Excursões devem ser agendadas previamente.</p>
+                    <button class="card-button">Comprar agora</button>
+                </div> 
+            </div>
+            <p class="subtitle-section">Excursões para escolas</p>
+            <div class="ticket-container">
+                <div class="card">
+                    <h3 class="card-title">Passaporte escolar</h3>
+                    <p class="card-days">Terça a sexta</p>
+                    <ul class="card-price">
+                        <li>Até Setembro: R$ 29,90</li>
+                        <li>Até Outubro : R$ 32,90  </li>
+                        <li>Até Novembro: R$ 34,90 </li>
+                    </ul>
+                    <p class="card-description">Obs: Descontos conforme mês de pagamento.</p>
+                    <button class="card-button">Comprar agora</button>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Passaporte escolar</h3>
+                    <p class="card-days">Sábado e domingo</p>
+                    <ul class="card-price">
+                        <li>Até Setembro: R$ 39,90</li>
+                        <li>Até Outubro : R$ 42,90  </li>
+                        <li>Até Novembro: R$ 44,90 </li>
+                    </ul>
+                    <p class="card-description">Obs: Descontos conforme mês de pagamento.</p>
+                    <button class="card-button">Comprar agora</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="fotos">
+            <h2 style="color: #049DD9;" class="title-section">Fotos</h2>
+            <p class="subtitle-section">Explore alguns dos nossos momentos e espaços mais incríveis. Veja o que espera por você!</p>
+            <div id="gallery">
+                <img src="src/img/banhista.jpg" alt="">
+                <img src="src/img/cadeiras.jpg" alt="">
+                <img src="src/img/crianças-jogando-bola 1.jpg" alt="">
+                <img src="src/img/parque-aerea.jpg" alt="">
+                <img src="src/img/piscina-dragao.jpg" alt="">
+                <img src="src/img/piscina-vista-aerea.jpg" alt="">
+                <img src="src/img/piscina.jpg" alt="">
+                <img src="src/img/piscina2.jpg" alt="">
+            </div>
+        </section>
+
+        <section id="Sobre">
+            <h2 class="title-section">Sobre</h2>
+            <p class="description-sobre">Descubra um lugar onde <br> <span class="destaque-verde">diversão e momentos <br> inesquecíveis</span> se <br>encontram!</p>
+
+            <div class="text-sobre">
+                <p>O Itapema Park é o destino perfeito para quem busca diversão, lazer e momentos únicos em família ou com amigos.</p>
+                <p>Com atrações que vão de toboáguas radicais a piscinas relaxantes, oferecemos experiências inesquecíveis para todas as idades.</p>
+                <p>Situado em uma localização privilegiada, o parque conta com uma infraestrutura completa, incluindo restaurantes, áreas de descanso e estacionamento gratuito para grupos.</p>
+            </div>
+
+        <div class="ticket-container-sobre">
+                <div class="card-missao-sobre">
+                    <h3 class="card-title-sobre">Missão</h3>
+                    <p class="card-description-sobre">Proporcionar momentos inesquecíveis de diversão, lazer e conexão entre as pessoas, oferecendo experiências seguras, acessíveis e repletas de alegria, em um ambiente que valoriza a natureza e a qualidade de vida.</p>
+                </div>
+                <div class="card-visao-sobre">
+                    <h3 class="card-title-sobre">Visão</h3>
+                    <p class="card-description-sobre">Ser reconhecido como o principal destino de entretenimento aquático da região, oferecendo atrações inovadoras, serviços de excelência e experiências que encantem visitantes de todas as idades.</p>
+                </div>
+                <div class="card-valores-sobre">
+                    <h3 class="card-title-sobre">Valores</h3>
+                    <ul class="card-list-sobre">
+                        <li class="valores-item">Segurança</li>
+                        <li class="valores-item">Diversão</li>
+                        <li class="valores-item">Inclusão</li>
+                        <li class="valores-item">Excelência</li>
+                        <li class="valores-item">Empatia</li>
+                        <li class="valores-item">Inovação</li>
+                        <li class="valores-item">Foco no cliente</li>
+                    </ul>
+                </div>
+        </div>  
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+        <img src="src/img/wave (6).svg" alt="">
+        <div id="footer-items">
+            <div class="footer-column">
+                <h4>Redes Sociais & Contato</h4>
+                <ul>
+                    <li>
+                        <a href="https://instagram.com/itapemaparkoficial" target="_blank">
+                            <i class="fa-brands fa-instagram"></i> itapemaparkoficial
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://facebook.com/itapemapark" target="_blank">
+                            <i class="fa-brands fa-facebook"></i> Itapema Park
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/5519999917155" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i> (51) 99991-7155
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Onde nos encontrar?</h4>
+                <p>RS-118, 11800 - Tijuca, Viamão - RS, 94834-670</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.5593511087554!2d-51.0012154278753!3d-29.992091325314004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95190aa53de4c0fb%3A0x6b464072e2225603!2sItapema%20Park!5e0!3m2!1spt-BR!2sbr!4v1737670466222!5m2!1spt-BR!2sbr" width="400" height="300"  style="border:0; padding-top: 10%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="footer-column">
+                <h4>Horário de funcionamento</h4>
+                <p>De terça a domingo</p>
+                <p>Das 09:00 às 17:30</p>
+            </div>
+        </div>
+        
+            
+        </div>
+        <span id="copyright">
+            &copy 2025 Eduardo Ribeiro
+        </span>
+
+    </footer>
+    
+    
+</body>
+</html>

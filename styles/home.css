@@ -1,0 +1,46 @@
+#home {
+    background-image: url(/src/img/capa-lp\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+#overlay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza exatamente */
+    text-align: center;
+}
+
+#titulo {
+    font-weight: bold;
+    font-size: 48px;
+    color: #ffffff;
+    cursor: pointer;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+#titulo span {
+    color: #F2AB27;
+}
+
+.btn-saiba-mais {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 40px;
+    background-color: #F2AB27; 
+    color: #000; /* Cor do texto */
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 35px;
+    transition: 0.3s;
+
+}
+
+.btn-saiba-mais:hover {
+    background-color: #D9901F; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    color: #fff;
+}

@@ -1,0 +1,50 @@
+/*Imports*/
+@import url(header.css);
+@import url(ingressos.css);
+@import url(fotos.css);
+@import url(sobre.css);
+@import url(contato.css);
+@import url(home.css);
+@import url(footer.css);
+@import url(responsividade.css);
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #049DD9;
+}
+
+.subtitle {
+    font-size: 1.4rem;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+section {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.title-section {
+    color: #fff;
+    font-size: 2.5rem;
+    padding-top: 110px;
+    padding-bottom: 0%;
+}
+
+.subtitle-section {
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
