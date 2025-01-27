@@ -80,4 +80,7 @@
     .footer-column {
         align-items: center;
     }
+    .swiper {
+        height: 100%;
+    }
 }

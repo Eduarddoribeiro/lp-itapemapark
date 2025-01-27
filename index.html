@@ -18,9 +18,17 @@ x-icon">
 
 <!--JS e CSS-->
 <link rel="stylesheet" href="styles/style.css">
-<script src="script.js" defer></script>
 
+<script src="script.js" defer></script>
+<script src="fotos.js" defer></script>
+
+<script src="https://unpkg.com/scrollreveal"></script>
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
 </head>
 <body>
@@ -163,16 +171,27 @@ x-icon">
         <section id="fotos">
             <h2 style="color: #049DD9;" class="title-section">Fotos</h2>
             <p class="subtitle-section">Explore alguns dos nossos momentos e espaços mais incríveis. Veja o que espera por você!</p>
-            <div id="gallery">
-                <img src="src/img/banhista.jpg" alt="">
-                <img src="src/img/cadeiras.jpg" alt="">
-                <img src="src/img/crianças-jogando-bola 1.jpg" alt="">
-                <img src="src/img/parque-aerea.jpg" alt="">
-                <img src="src/img/piscina-dragao.jpg" alt="">
-                <img src="src/img/piscina-vista-aerea.jpg" alt="">
-                <img src="src/img/piscina.jpg" alt="">
-                <img src="src/img/piscina2.jpg" alt="">
-            </div>
+            <div class="carousel">
+                <div><img src="src/img/crianças-jogando-bola 1.jpg" alt="Imagem 1"></div>
+                <div><img src="src/img/parque-aerea.jpg" alt="Imagem 2"></div>
+                <div><img src="src/img/piscina-dragao.jpg" alt="Imagem 3"></div>
+                <div><img src="src/img/piscina-vista-aerea.jpg" alt="Imagem 4"></div>
+                <div><img src="src/img/piscina.jpg" alt="Imagem 5"></div>
+                <div><img src="src/img/piscina2.jpg" alt="Imagem 6"></div>
+                <div><img src="src/img/tobogã-polvo.jpg" alt="Imagem 7"></div>
+              </div>
+  <!-- Adicione mais imagens conforme necessário -->
+</div>
+
+            
+            
+                <!-- Botões de navegação -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            
+                <!-- Paginação -->
+                <div class="swiper-pagination"></div>
+              </div>
         </section>
 
         <section id="Sobre">

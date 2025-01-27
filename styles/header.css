@@ -39,10 +39,12 @@ header {
     text-decoration: none;
     color: #FFB71D;
     font-weight: 600;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
     
 }
 
 .nav-item.active a {
     color: #fff;
-    /*border-bottom: 3px solid #F2E313;*/
+    border-bottom: 2px solid #F2E313;
+    padding-bottom: 2px;
 }
