@@ -1,8 +1,8 @@
 $(document).ready(function(){
   $('.carousel').slick({
     infinite: true,  // Carrossel infinito
-    slidesToShow: 1, // Mostrar uma imagem por vez no celular
-    slidesToScroll: 1, // Avançar uma imagem de cada vez
+    slidesToShow: 3, // Mostrar uma imagem por vez no celular
+    slidesToScroll: 3, // Avançar uma imagem de cada vez
     autoplay: true,  // Avanço automático
     autoplaySpeed: 2000,  // Tempo de cada slide
     arrows: true,  // Mostrar setas de navegação

@@ -80,7 +80,8 @@
     .footer-column {
         align-items: center;
     }
-    .swiper {
-        height: 100%;
-    }
+    .carousel img {
+        width: 100%; /* As imagens agora ocupam toda a largura disponível do carrossel */
+        height:100%; /* Mantém a proporção da imagem */
+      }
 }
